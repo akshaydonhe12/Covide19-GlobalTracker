@@ -1,8 +1,13 @@
 import React from 'react';
+import { Card, CardContent, Typography, Grid, StylesProvider } from '@material-ui/core';
 
 const Cards = (props) => {
+    console.log(props);
+
     return(
-        <h1>Cards</h1>
+        <div className={Styles.container}>
+            
+        </div>
     )
 }
 
